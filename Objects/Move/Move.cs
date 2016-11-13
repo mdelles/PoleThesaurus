@@ -1,3 +1,4 @@
+namespace PoleThesaurus.Objects.Move{
 public class Move:IMove{
 
     private Image _poleImage;
@@ -14,4 +15,5 @@ public class Move:IMove{
     public GUID getID(){
         return _id;
     }
+}
 }

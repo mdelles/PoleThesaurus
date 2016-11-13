@@ -1,3 +1,4 @@
+namespace PoleThesaurus.Objects.PoleName{
 public class PoleName:IPoleName{
 
     private ILocation location = new UnknownLocation();
@@ -31,4 +32,5 @@ public class PoleName:IPoleName{
     public GUID getID(){
         return _id;
     }
+}
 }

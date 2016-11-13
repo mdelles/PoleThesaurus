@@ -1,7 +1,9 @@
+namespace PoleThesaurus{
 public class Main {
-    public static int Main(string[] args)
+    public static int Main()
     {
         
         return 0;
     }
+}
 }
